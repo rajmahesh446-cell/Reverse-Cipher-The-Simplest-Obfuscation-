@@ -1,0 +1,10 @@
+public class ReverseCipher {
+    public static void main(String[] args) {
+        String message = "Secret Message";
+        // Java has a built-in reverse tool in StringBuilder
+        String encrypted = new StringBuilder(message).reverse().toString();
+        
+        System.out.println("Encrypted: " + encrypted); 
+        // Output: egasseM terceS
+    }
+}
