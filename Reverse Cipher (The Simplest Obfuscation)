@@ -6,4 +6,5 @@ public class ReverseCipher {
         
         System.out.println("Encrypted: " + encrypted); 
         // Output: egasseM terceS
-    
+    }
+}
